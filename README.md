@@ -1,6 +1,6 @@
 # Dreamy Drakor App - Mobile App
 Here is the repository for Dicoding submission "Belajar Membuat Aplikasi Android untuk Pemula"  
-MSIB Kampus Merdeka Batch 6 - Bangkit Academy 2024 Batch 1
+MSIB Kampus Merdeka Batch 6 - Bangkit Academy 2024
 
 ![GitHub_Putri-R_Dreamy Drakor](https://github.com/Putri-R/DreamyDrakorApp/assets/125380130/93736f2f-59fd-4a1b-b018-89acdd28f178)
 
