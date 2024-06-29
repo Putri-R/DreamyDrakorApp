@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="236dp"
+        android:layout_height="236dp"
+        app:cardCornerRadius="88dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/about_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/putri_ramadhani_muliaqalbi"
+            tools:ignore="MissingConstraints" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/about_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Putri Ramadhani Muliaqalbi"
+        android:textColor="@color/orange"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/about_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="a308d4kx3775@bangkit.academy"
+        android:textColor="@color/dark_grey"
+        android:textSize="16sp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>

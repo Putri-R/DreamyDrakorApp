@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DreamyDrakor" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorOnPrimary">@color/yellow</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_grey</item>
+        <item name="colorOnSecondary">@color/light_grey</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorOnPrimary">@color/yellow</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_grey</item>
+        <item name="colorOnSecondary">@color/light_grey</item>
+    </style>
+
+    <style name="Theme.DreamyDrakor" parent="Base.Theme.DreamyDrakor" />
+</resources>
